@@ -1,12 +1,22 @@
+.page-header {
+  position: relative;
+  width: auto;
+}
+
+.page-header__wrapper {
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header__logo {
   display: block;
   width: 48px;
   height: 48px;
-
-  // &:hover[href],
-  // &:focus[href] {
-  //   fill: $firm-pink;
-  // }
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 
   &:active[href] {
     opacity: 0.5;
