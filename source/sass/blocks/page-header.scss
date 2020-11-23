@@ -1,0 +1,14 @@
+.page-header__logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+
+  // &:hover[href],
+  // &:focus[href] {
+  //   fill: $firm-pink;
+  // }
+
+  &:active[href] {
+    opacity: 0.5;
+  }
+}

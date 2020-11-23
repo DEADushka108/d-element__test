@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Тестовое задание">
+    <meta name="description" content="Форма обратной связи">
+    <title>Тестовое задание: Форма обратной связи</title>
+    <link rel="preload" href="./Gilroy-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div style="display: none;">
+      <include src="build/img/icons/sprite.svg"></include>
+    </div>
+    <header class="page-header page-header--active">
+      <div class="page-header__wrapper">
+        <a class="page-header__logo">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="24" r="16" fill="#316099"/>
+            <circle cx="32" cy="24" r="15" fill="white" stroke="#316099" stroke-width="2"/>
+            <path d="M39.3 30L34.38 16H30.96L26.06 30H29.04L29.88 27.48H35.46L36.3 30H39.3ZM32.68 19.18L34.6 24.9H30.76L32.68 19.18Z" fill="#316099"/>
+          </svg>
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle main-nav__toggle--close main-nav__toggle--nojs" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+            <svg class="main-nav__humburger-icon" width="32" height="32">
+              <use xlink:href="#icon-burger"></use>
+            </svg>
+            <svg class="main-nav__close-icon" width="20" height="20">
+              <use xlink:href="#icon-menu-cross"></use>
+            </svg>
+          </button>
+          <ul class="main-nav__list main-nav__list--open">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="index.html">Main</a>
+            </li>
+            <li class="main-nav__item">
+              <a  class="main-nav__link main-nav__link--active" >Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <h1 class="page-main__title">Contact us</h1>
+      <p class="page-main__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </p> 
+      <section class="main-contacts">
+        <h2 class="visually-hidden">Our contacts</h2>
+        <ul class="main-contacts__list">
+          <li class="main-contacts__item">
+            <p class="main-contacts__text">Adress</p>
+            <a class="contacts__link" href="https://goo.gl/maps/aQevuiyBgLhBuWMQA">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </a>
+          </li>
+          <li class="main-contacts__item">
+            <p class="main-contacts__text">Phone</p>
+            <ul class="main-contacts__phone">
+              <li>
+                <a class="main-contacts__phone-link" href="tel:+6281273134321">
+                  <svg class="main-contacts__phone-icon" width="24" height="24" >
+                    <use xlink:href="#icon-phone"></use>
+                  </svg>
+                  +62-812-7313-4321
+                </a>
+              </li>
+              <li>
+                <a class="main-contacts__phone-link" href="tel:+628170001234">
+                  <svg class="main-contacts__phone-icon" width="24" height="24">
+                    <use xlink:href="#icon-phone"></use>
+                  </svg>
+                  +62-817-000-1234
+                </a>
+              </li>
+            </ul>
+            <li class="main-contacts__item">
+              <p class="main-contacts__text">Online services</p>
+              <ul class="main-contacts__service">
+                <li>
+                  <a class="main-contacts__service-web" href="www.afrianska.com">
+                    <svg class="main-contacts__web-icon" width="20" height="20">
+                      <use xlink:href="#icon-web"></use>
+                    </svg>
+                    www.afrianska.com
+                  </a>
+                </li>
+                <li>
+                  <a class="main-contacts__service-mail" href="mailto:hello.afrian@gmail.com">
+                    <svg class="main-contacts__mail-icon" width="20" height="16">
+                      <use xlink:href="#icon-mail"></use>
+                    </svg>
+                    hello.afrian@gmail.com
+                  </a>
+                </li>
+            </li>
+          </li>
+        </ul>
+      </section>
+      <section class="feedback">
+        <h2 class="visually-hidden">Contact us form</h2>
+        <form class="feedback__form" action="#" method="GET">
+          <fieldset class="feedback__item">
+            <legend class="visually-hidden">Introduce yourself an write us some word</legend>
+            <p class="user-info__item">
+              <label class="user-info__label" for="user-name">Full name</label>
+              <input class="user-info__input" id="user-name" type="text" name="full-name" placeholder="Your Name" required>
+            </p>
+            <p class="user-info__item">
+              <label class="user-info__label" for="user-email">Email</label>
+              <input class="user-info__input" id="user-email" type="email" name="email" placeholder="Your Email" required>
+            </p>
+            <p class="user-info__item">
+              <label class="user-info__label" for="comment-field">Message</label>
+              <textarea class="user-info__input" name="comment" id="comment-field" rows="2" placeholder="Your Message"></textarea>
+            </p>
+          </fieldset>
+          <button class="feedback__button button" type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="map">
+        <h2 class="visually-hidden">Our adress on map</h2>
+        <iframe
+          class="contacts__map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603787253323!2d30.320858716385143!3d59.93871648187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1582307010902!5m2!1sru!2sru"
+          allowfullscreen=""
+          title="">
+        </iframe>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <h2 class="page-footer__title">Intersted to work with our team?</h2>
+      <p class="page-footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <a class="page-footer__button button" href="#">Let’s Talk</a>
+      <div class="page-footer__contacts contacts">
+        <h3 class="contacts__title">
+          <a class="contacts__logo">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="24" r="16" fill="#98C3E8"/>
+              <circle cx="32" cy="24" r="15" fill="white" stroke="#316099" stroke-width="2"/>
+              <path d="M38.3 31L33.38 17H29.96L25.06 31H28.04L28.88 28.48H34.46L35.3 31H38.3ZM31.68 20.18L33.6 25.9H29.76L31.68 20.18Z" fill="#316099"/>
+            </svg>
+          Afrianska  
+          </a>
+        </h3>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            A.
+            <a class="contacts__link" href="https://goo.gl/maps/aQevuiyBgLhBuWMQA">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </a>
+          </li>
+          <li class="contacts__item">
+            T.
+            <a class="contacts__phone"  href="tel:+6281273134321">
+              +62-812-7313-4321
+            </a>
+          </li>
+          <li class="contacts__item">
+            E.
+            <a class="contacts__mail"  href="hello.afrian@gmail.com">
+              hello.afrian@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__about-us about-us">
+        <h3 class="about-us__title">About us</h3>
+        <ul class="about-us__list">
+          <li class="about-us__item">
+            <a class="about-us__link" href="#">
+              About
+            </a>
+          </li>
+          <li class="about-us__item">
+            <a class="about-us__link" href="#">
+              What We Do
+            </a>
+          </li>
+          <li class="about-us__item">
+            <a class="about-us__link" href="#">
+              Project
+            </a>
+          </li>
+          <li class="about-us__item">
+            <a class="about-us__link" href="#">
+              How It Work With Us
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__social social">
+        <h3 class="social__title">Follow us</h3>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Instagram
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Facebook
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              LinkedIn
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              Youtube
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
