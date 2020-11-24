@@ -17,3 +17,14 @@
   background-repeat: no-repeat;
   background-size: 320px auto;
 }
+
+@media(min-width: $tablet-width) {
+  .map {
+    width: 660px;
+  }
+
+  .map__iframe {
+    width: 660px;
+    height: 400px;
+  }
+}

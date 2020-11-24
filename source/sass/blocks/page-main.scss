@@ -39,3 +39,8 @@
   padding-bottom: 40px;
 }
 
+@media (min-width: $tablet-width) {
+  .page-main__wrapper {
+    width: 660px;
+  }
+}

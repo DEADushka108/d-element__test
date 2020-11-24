@@ -23,3 +23,15 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+@media (min-width: $tablet-width) {
+  .feedback {
+    padding-bottom: 40px;
+  }
+
+  .feedback__button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;  
+  }
+}

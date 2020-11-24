@@ -27,3 +27,11 @@
     color: $text-blue;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .about-us__title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}

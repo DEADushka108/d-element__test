@@ -22,3 +22,9 @@
     opacity: 0.5;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .page-header__wrapper {
+    width: 660px;
+  }
+}

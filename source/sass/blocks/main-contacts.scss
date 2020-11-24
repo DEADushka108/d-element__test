@@ -67,3 +67,23 @@
   top: 4px;
   margin-right: 10px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-contacts {
+  
+    &::before {
+      top: 0;
+      left: 225px;
+    }
+  }
+
+  .main-contacts__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-contacts__item {
+    width: 300px;
+  }
+}
