@@ -26,3 +26,18 @@
     color: rgba($text-blue, 0.3);
   }
 }
+
+@media (min-width: $desktop-width) {
+  .button {
+    width: 220px;
+    padding: 15px 20px;
+      
+    &:hover,
+    &:focus {
+      color: $text-blue;
+      background-color: transparent;
+      padding: 12px 17px;
+      border: 3px solid $text-blue;
+    }
+  }
+}

@@ -28,3 +28,14 @@
     width: 660px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__wrapper {
+    width: 1326px;
+  }
+
+  .page-header__logo {
+    margin-left: 71px;
+    margin-top: 20px;
+  }
+}
