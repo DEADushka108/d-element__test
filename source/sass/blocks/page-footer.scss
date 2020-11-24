@@ -1,0 +1,46 @@
+.page-footer {
+  width: 360px;
+  margin: 0 auto;
+  background-color: $bg-blue;
+  padding-top: 20px;
+
+  &--white {
+    background-color: $bg-white;
+  }
+ }
+
+.page-footer__wrapper {
+  border-radius: 0px 100px 0px 0px;
+  background-color: $bg-ligh-blue;
+}
+
+.page-footer__title {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 40px;
+  color: $text-white;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.page-footer__text {
+  width: 280px;
+  color: $text-white;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-footer__button {
+  margin-left: 40px;
+
+  &:hover,
+  &:focus {
+    background-color: $bg-white;
+  }
+}
+
+.page-footer__copyright {
+  font-size: 12px;
+  text-align: center;
+}

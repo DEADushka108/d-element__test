@@ -1,0 +1,29 @@
+.social {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.social__title {
+  color: $text-white;
+  text-align: center;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.social__item {
+  padding-bottom: 10px;
+}
+
+.social__link {
+  text-decoration: none;
+  color: $text-white;
+
+  &:hover {
+    color: $text-blue;
+  }
+}

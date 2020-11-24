@@ -1,0 +1,43 @@
+.contacts {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.contacts__logo {
+  position: relative;
+}
+
+.contacts__logo-icon {
+  position: relative;
+  top: 16px;
+}
+
+.contacts__title {
+  text-decoration: none;
+  color: $text-white;
+  text-align: center;
+}
+
+.contacts__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: $text-white;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.contacts__link {
+  width: 240px;
+  text-decoration: none;
+  color: $text-white;
+
+  &:hover {
+    color: $text-blue;
+  }
+}

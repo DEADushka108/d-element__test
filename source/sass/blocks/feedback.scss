@@ -1,0 +1,25 @@
+.feedback {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.feedback__title {
+  padding-top: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feedback__item {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__button {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

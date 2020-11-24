@@ -1,0 +1,19 @@
+.map {
+  margin: 0 auto;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.map__iframe {
+  position: relative;
+  width: 360px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  height: 200px;
+  line-height: 0;
+  background-image: url("../img/bg/map-bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 320px auto;
+}

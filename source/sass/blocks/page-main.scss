@@ -1,7 +1,7 @@
 .page-main {
   position: relative;
   margin: 0;
-  padding: 0;
+  padding-bottom: 0;
   width: auto;
 }
 
@@ -10,15 +10,32 @@
   margin: 0 auto;
 }
 
-// .page-main__title {
-//   width: 230px;
-//   padding: 0;
-//   margin: 0 auto;
-//   padding-top: 30px;
-//   line-height: 30px;
-//   padding-bottom: 51px;
-//   text-align: center;
-//   font-size: 24px;
-//   font-weight: 300;
-// }
+.page-main__intro {
+  background-image: url("../img/bg/form-bg.svg");
+  background-repeat: no-repeat;
+  background-size: auto 250px;
+  background-position: center;
+}
+
+.page-main__title {
+  width: 230px;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: $text-white;
+  line-height: 32px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.page-main__text {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  color: $text-white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
