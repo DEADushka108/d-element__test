@@ -27,3 +27,23 @@
     color: $text-blue;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .social {
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 38px;
+  }
+
+  .social__title {
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+
+  .social__item {
+    text-align: left;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+}

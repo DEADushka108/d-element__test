@@ -22,3 +22,23 @@
     width: 540px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .user-info {
+    width: 520px;
+  }
+
+  .user-info__label {
+    margin-bottom: 12px;
+  }
+
+  .user-info__item {
+    margin-bottom: 17px;
+    margin-left: 46px;
+    margin-right: 45px;
+  }
+
+  .user-info__input {
+    padding: 25px 40px;
+  }
+}

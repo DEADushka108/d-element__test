@@ -51,5 +51,36 @@
     padding: 0;
     margin: 0;
     margin-bottom: 20px;
-  }  
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    margin: 0;
+    padding-top: 38px;
+    margin-left: 48px;
+  }
+
+  .contacts__title {
+    letter-spacing: 0.05em;
+    font-size: 26px;
+    line-height: 46px;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+
+  .contacts__logo-icon {
+    top: 18px;
+    padding-right: 9px;
+  }
+
+  .contacts__item {
+    line-height: 26px;
+    padding-bottom: 22px;
+    justify-content: flex-start;
+  }
+
+  .contacts__link {
+    margin-left: 20px;
+  }
 }

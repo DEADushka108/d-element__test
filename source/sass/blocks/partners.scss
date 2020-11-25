@@ -2,7 +2,7 @@
   padding-bottom: 40px;
   margin: 0 auto;
   margin-top: 40px;
-  border-radius: 100px 0px 0px;
+  border-radius: 100px 0 0;
   background-color: $bg-blue;
 }
 
@@ -64,9 +64,9 @@
 
 @media (min-width: $tablet-width) {
   .partners {
-    border-radius: 150px 0px 0px;
+    border-radius: 150px 0 0;
   }
-  
+
   .partners__wrapper {
     padding-top: 40px;
     display: flex;
@@ -80,7 +80,7 @@
     line-height: 32px;
     padding-top: 0;
   }
-  
+
   .partners__text {
     color: $text-white;
     width: 300px;
@@ -103,6 +103,7 @@
       height: 128px;
       background-color: $bg-white;
     }
+
     &:nth-child(7)::after {
       display: none;
     }
@@ -111,7 +112,7 @@
 
 @media (min-width: $desktop-width) {
   .partners {
-    border-radius: 200px 0px 0px;
+    border-radius: 200px 0 0;
   }
 
   .partners__wrapper {

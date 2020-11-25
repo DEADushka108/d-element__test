@@ -35,3 +35,26 @@
     margin: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .about-us {
+    margin: 0;
+    margin-top: 26px;
+    margin-left: 124px;
+  }
+
+  .about-us__title {
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding-bottom: 34px;
+  }
+
+  .about-us__list {
+    text-align: left;
+  }
+
+  .about-us__item {
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+}

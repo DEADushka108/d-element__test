@@ -70,7 +70,6 @@
 
 @media (min-width: $tablet-width) {
   .main-contacts {
-  
     &::before {
       top: 0;
       left: 225px;
@@ -85,5 +84,38 @@
 
   .main-contacts__item {
     width: 300px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-contacts {
+    &::before {
+      top: 62px;
+      left: 30px;
+    }
+  }
+
+  .main-contacts__list {
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 96px;
+    padding-left: 20px;
+  }
+
+  .main-contacts__item {
+    text-align: left;
+    padding-bottom: 28px;
+  }
+
+  .main-contacts__text {
+    padding-bottom: 23px;
+  }
+
+  .main-contacts__link {
+    width: 299px;
+  }
+
+  .main-contacts__service-item {
+    padding-bottom: 14px;
   }
 }

@@ -49,4 +49,38 @@
   .page-main__wrapper {
     width: 1346px;
   }
+
+  .page-main__intro {
+    margin: 0;
+    padding: 0;
+    margin-top: 31px;
+    background-size: 1366px 250px;
+    background-position: top;
+  }
+
+  .page-main__title {
+    font-size: 44px;
+    line-height: 76px;
+    width: 244px;
+    font-weight: 700px;
+    padding-top: 48px;
+    padding-left: 8px;
+  }
+
+  .page-main__text {
+    width: 780px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 6px;
+    padding-left: 16px;
+    padding-bottom: 54px;
+  }
+
+  .page-main__contacts-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+  }
 }

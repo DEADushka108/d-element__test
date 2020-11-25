@@ -32,6 +32,31 @@
   .feedback__button {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;  
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback__title {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 60px;
+    padding-top: 37px;
+    margin-bottom: 30px;
+  }
+
+  .feedback__button {
+    text-transform: uppercase;
+    margin-top: 48px;
+    width: 428px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 16px;
+
+    &:hover {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
   }
 }
