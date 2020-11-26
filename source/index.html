@@ -251,5 +251,106 @@
         </div>
       </div>
     </footer>
+    <div class="modal modal--close">
+      <div class="modal__wrapper page-main__wrapper">
+        <button class="modal__button" type="button">
+          <svg class="modal__close-icon" width="16" height="16">
+            <use xlink:href="#close-cross"></use>
+          </svg>
+        </button>
+        <div class="modal__intro page-main__intro">
+          <h1 class="page-main__title">Contact Us</h1>
+          <p class="page-main__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+        </div>
+        <div class="page-main__contacts-wrapper">
+          <section class="main-contacts">
+            <h2 class="visually-hidden">Our contacts</h2>
+            <ul class="main-contacts__list">
+              <li class="main-contacts__item">
+                <p class="main-contacts__text">Adress</p>
+                <a class="main-contacts__link" href="https://goo.gl/maps/aQevuiyBgLhBuWMQA">
+                  Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.
+                </a>
+              </li>
+              <li class="main-contacts__item">
+                <p class="main-contacts__text">Phone</p>
+                <ul class="main-contacts__phone">
+                  <li>
+                    <a class="main-contacts__link" href="tel:+6281273134321">
+                      <svg class="main-contacts__phone-icon" width="24" height="24" >
+                        <use xlink:href="#icon-phone"></use>
+                      </svg>
+                      +62-812-7313-4321
+                    </a>
+                  </li>
+                  <li>
+                    <a class="main-contacts__link" href="tel:+628170001234">
+                      <svg class="main-contacts__phone-icon" width="24" height="24">
+                        <use xlink:href="#icon-phone"></use>
+                      </svg>
+                      +62-817-000-1234
+                    </a>
+                  </li>
+                </ul>
+                <li class="main-contacts__item">
+                  <p class="main-contacts__text">Online service</p>
+                  <ul class="main-contacts__service">
+                    <li class="main-contacts__service-item">
+                      <a class="main-contacts__link" href="www.afrianska.com">
+                        <svg class="main-contacts__web-icon" width="20" height="20">
+                          <use xlink:href="#icon-web"></use>
+                        </svg>
+                        www.afrianska.com
+                      </a>
+                    </li>
+                    <li class="main-contacts__service-item">
+                      <a class="main-contacts__link" href="mailto:hello.afrian@gmail.com">
+                        <svg class="main-contacts__mail-icon" width="20" height="16">
+                          <use xlink:href="#icon-mail"></use>
+                        </svg>
+                        hello.afrian@gmail.com
+                      </a>
+                    </li>
+                  </li>
+                </li>
+              </ul>
+            </ul>
+          </section>
+          <section class="feedback">
+            <h2 class="feedback__title">Send us message</h2>
+            <form class="feedback__form" action="#" method="GET">
+              <fieldset class="feedback__item user-info">
+                <legend class="visually-hidden">Introduce yourself an write us some word</legend>
+                <p class="user-info__item">
+                  <label class="user-info__label" for="user-name">Full name</label>
+                  <input class="user-info__input" id="user-name" type="text" name="full-name" placeholder="Your Name" required>
+                </p>
+                <p class="user-info__item">
+                  <label class="user-info__label" for="user-email">Email</label>
+                  <input class="user-info__input" id="user-email" type="email" name="email" placeholder="Your Email" required>
+                </p>
+                <p class="user-info__item">
+                  <label class="user-info__label" for="comment-field">Message</label>
+                  <textarea class="user-info__input" name="comment" id="comment-field" rows="5" placeholder="Your Message"></textarea>
+                </p>
+              </fieldset>
+              <button class="feedback__button button" type="submit">Submit</button>
+            </form>
+          </section>
+        </div>
+        <section class="map">
+          <h2 class="visually-hidden">Our adress on map</h2>
+          <iframe
+            class="map__iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6628123186197!2d-74.16294558459398!3d40.74744447932801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbed8431ee6a592d1!2sB-52&#39;s!5e0!3m2!1sru!2sru!4v1606196962482!5m2!1sru!2sru"
+            allowfullscreen=""
+            title="Company on map">
+          </iframe>
+        </section>
+      </div>
+    </div>
+    <script src="js/main.min.js"></script>
   </body>
 </html>
