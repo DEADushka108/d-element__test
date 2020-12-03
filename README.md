@@ -1,4 +1,4 @@
-# Web resource Afrinaska
+## Web resource Afrianska
 
 ---
 
