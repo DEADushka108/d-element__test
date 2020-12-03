@@ -6,13 +6,10 @@
     <meta name="keyword" content="Тестовое задание">
     <meta name="description" content="Макет тестового задания">
     <title>Тестовое задание</title>
-    <link rel="preload" href="./Gilroy-Regular.woff2" as="font" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <link rel="preload" href="./fonts/Gilroy-Regular.woff2" as="font" crossorigin="anonymous">
   </head>
   <body>
-    <div style="display: none;">
-      <include src="build/img/icons/sprite.svg"></include>
-    </div>
     <header class="page-header page-header--active">
       <div class="page-header__wrapper">
         <a class="page-header__logo">
@@ -28,11 +25,11 @@
             <svg class="main-nav__humburger-icon" width="32" height="32">
               <use xlink:href="#icon-burger"></use>
             </svg>
-            <svg class="main-nav__close-icon" width="20" height="20">
+            <svg class="main-nav__close-icon" width="30" height="30">
               <use xlink:href="#icon-menu-cross"></use>
             </svg>
           </button>
-          <ul class="main-nav__list">
+          <ul class="main-nav__list main-nav__list--open">
             <li class="main-nav__item">
               <a class="main-nav__link main-nav__link--active">Main</a>
             </li>
@@ -351,6 +348,5 @@
         </section>
       </div>
     </div>
-    <script src="js/main.min.js"></script>
-  </body>
+</body>
 </html>

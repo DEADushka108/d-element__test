@@ -2,7 +2,7 @@
   position: relative;
   width: 360px;
   padding-bottom: 300px;
-  background-image: url("../img/bg/main-bg.svg");
+  background-image: url("./img/bg/main-bg.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 360px auto;
@@ -13,7 +13,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background: linear-gradient(0deg, #98c3e8 8.84%, rgba(152, 195, 232, 0) 31.12%);
     content: "";
     z-index: -2;
     opacity: 0.2;
@@ -88,7 +88,7 @@
       right: 0;
       left: 520px;
       z-index: -1;
-      background-image: url("../img/bg/main-bg.svg");
+      background-image: url("./img/bg/main-bg.svg");
       background-position: right top;
       background-repeat: no-repeat;
       transform: rotate(0deg);
